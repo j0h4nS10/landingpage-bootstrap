@@ -1,1 +1,128 @@
 /*style css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    
+}
+
+
+
+.main-header {
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+}
+
+.logo {
+    width: 20%;
+    background-color: black;
+}
+
+.logo img {
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-nav1 {
+    width: 80%;
+    background-color: brown;
+}
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+  
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+  }
+  
+  
+
+.nav {
+    display: inline-block;
+	margin: 0;
+	border-radius: 0.5rem;
+}
+.nav ul {
+    display: none;
+    margin: 0;
+	padding: 0;
+    overflow: hidden;
+	width: 180px;
+	position: absolute;
+	border: solid 1px #b4b4b4;
+    border-radius: 10px;
+}
+
+.nav li {
+	margin: 0 5px;
+	padding: 0 0 8px;
+	float: left;
+	list-style: none;
+}
+
+.nav li:hover {
+    background-color: #b4b4b4;
+}
+
+
+.nav li:active > ul {
+    display: block;
+}
+
+/*
+.nav li:hover > ul {
+    display: block;
+}*/
+
+
+
+/*
+.nav li:hover > ul {
+	display: block;
+}*/
+
+.nav ul li ul li:hover {
+    background-color: blue;
+}

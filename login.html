@@ -12,6 +12,41 @@
 </head>
 
 <body>
+  <header>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark d-flex">
+      <div class="container-fluid">
+        <div class="col">
+          <a class="navbar-brand" href="#"><img
+              src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" alt="logo"
+              style="width:150px"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse offset-md-4" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-outline-primary me-2">Login</button>
+          <button type="button" class="btn btn-primary">Sign-up</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
 
   <section>
     <article>
@@ -34,7 +69,10 @@
               <input type="checkbox" value="remember-me"> Remember me
             </label>
           </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+          <!--<button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>-->
+          <div class="w-100 btn btn-lg btn-primary mt-1"><a href="./login.html">Sing in</a></div>
+          <!--<button class="w-100 btn btn-lg btn-primary mt-1" type="submit">Sign Up</button>-->
+          <div class="w-100 btn btn-lg btn-primary mt-1"><a href="./singup.html">Sing Up</a></div>
           <p class="mt-5 mb-3 text-muted">© 2017–2022</p>
         </form>
       </main>
